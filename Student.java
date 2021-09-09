@@ -15,6 +15,7 @@ public class Student
 	private boolean infected = false;
 	private boolean exposed = false;
 
+	// Constructor
 	public Student(String f_name, String l_name, int mat)
 	{
 		first_name = f_name;
