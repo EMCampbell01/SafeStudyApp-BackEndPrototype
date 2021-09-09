@@ -4,16 +4,16 @@ public class Student
 {
 
 	// Student Info
-	String first_name; 
-	String last_name;
-	int matric;
+	private String first_name; 
+	private String last_name;
+	private int matric;
 	
 	// List of group ID's of StudyGroups instance of student is in
-	int[] groups;
+	private int[] groups;
 	
 	// Student Covid-19 Info
-	boolean infected = false;
-	boolean exposed = false;
+	private boolean infected = false;
+	private boolean exposed = false;
 
 	public Student(String f_name, String l_name, int mat)
 	{
