@@ -10,7 +10,6 @@ public class Student
 	
 	// List of group ID's of StudyGroups instance of student is in
 	int[] groups;
-	int hello;
 	
 	// Student Covid-19 Info
 	boolean infected = false;
