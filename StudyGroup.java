@@ -5,11 +5,11 @@ import java.time.LocalDateTime;
 public class StudyGroup 
 {
 
-	int id;      // unique StudyGroup id
-	String name; // StudyGroup name
+	private int id;      // unique StudyGroup id
+	private String name; // StudyGroup name
 	
-	ArrayList<Student> students = new ArrayList<Student>(); // List of Students in StudyGroup
-	ArrayList<Meeting> meetings = new ArrayList<Meeting>(); // List of meetings in StudyGroup
+	private ArrayList<Student> students = new ArrayList<Student>(); // List of Students in StudyGroup
+	private ArrayList<Meeting> meetings = new ArrayList<Meeting>(); // List of meetings in StudyGroup
 
 	public void addStudent(Student student)
 	{
