@@ -12,5 +12,10 @@ public class StudyGroupSystem
 	{
 		
 	}
+	
+	public ArrayList<Student> getContacts(Student infected)
+	{
+		
+	}
 
 }
