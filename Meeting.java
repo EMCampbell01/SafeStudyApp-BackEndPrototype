@@ -4,8 +4,8 @@ import java.time.LocalDateTime;
 public class Meeting 
 {
 
-	LocalDateTime local_time;
-	int local_room;
+	private LocalDateTime local_time;
+	private int local_room;
 	
 	public Meeting(LocalDateTime time, int room)
 	{
