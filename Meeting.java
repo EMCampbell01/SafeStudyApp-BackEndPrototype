@@ -5,7 +5,7 @@ import java.time.LocalTime;
 
 /**
  * Meeting class for managing meetings of study groups
- * @author Julia Swietochowska, Euan Campbell
+ * Authors - Julia Swietochowska, Euan Campbell
  */
 public class Meeting {
 	private LocalDate date;
