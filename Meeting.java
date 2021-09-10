@@ -1,16 +1,31 @@
-package hackathon_project;
-import java.time.LocalDateTime;
+package safeStudy;
 
-public class Meeting 
-{
+import java.time.LocalDate;
+import java.time.LocalTime;
 
-	private LocalDateTime local_time;
-	private int local_room;
+/**
+ * Meeting class for managing meetings of study groups
+ * @author Julia Swietochowska, Euan Campbell
+ */
+public class Meeting {
+	private LocalDate date;
+	private LocalTime time;
+	private int room;
 	
-	public Meeting(LocalDateTime time, int room)
-	{
-		local_time = time;
-		local_room = room;
+	/**
+	 * Creates a Meeting object
+	 * @param date	date of the meeting
+	 * @param time	time of the meeting
+	 * @param room	room for the meeting
+	 */
+	public Meeting(LocalDate date, LocalTime time, int room){
+		this.date = date;
+		this.time = time;
+		this.room = room;
 	}
 
+	@Override
+	public String toString() {
+		return "Meeting [date=" + date + ", time=" + time + ", room=" + room + "]";
+	}
 }
