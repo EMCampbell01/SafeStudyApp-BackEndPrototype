@@ -11,4 +11,4 @@ If a member of a study group tests positive for Covid-19, all their group member
 
 This repository contains a prototype to demo the back-end functionality of the SafeStudyApp
 
-The front-end app gui was developed seperatly and can be found here:adel2924/StudyAppHackathon
+The front-end app gui was developed seperatly and can be found here: adel2924/StudyAppHackathon
